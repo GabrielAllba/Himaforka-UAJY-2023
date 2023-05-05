@@ -11,8 +11,8 @@ export default function Hero() {
                         Industri Universitas Atma Jaya Yogyakarta.
                     </p>
                     <div className="flex justify-center gap-4">
-                        <button className="btn btn-primary">Get Started</button>
-                        <button className="btn btn-primary">Get Started</button>
+                        <button className="btn btn-primary">Read More</button>
+                        <button className="btn btn-primary">Play Video</button>
                     </div>
                 </div>
             </div>
