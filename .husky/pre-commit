@@ -3,5 +3,4 @@
 
 pnpm lint
 pnpm pretty
-pnpm build
 git add .
