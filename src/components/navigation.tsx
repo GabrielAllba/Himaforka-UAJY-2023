@@ -1,22 +1,22 @@
 export default function Navigation() {
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar fixed bg-base-100 z-10">
             <div className="flex-1">
                 <a className="btn-ghost btn gap-2 text-xl normal-case">
                     <div className="w-10 rounded-full">
                         <img alt="logo-himaforka" src="/img/LOGO_HIMAFORKA.png" />
                     </div>
-                    <h2 className="text-sm">HIMAFORKA UAJY</h2>
+                    <h2 className="text-sm font-bold text-[#242879]">HIMAFORKA UAJY</h2>
                 </a>
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
-                    <li>
+                    <li className="text-[#242879] font-bold ">
                         <a>Beranda</a>
                     </li>
 
                     <li tabIndex={0}>
-                        <a>
+                        <a className="font-bold text-[#B0B0E4]">
                             Informasi
                             <svg
                                 className="fill-current"
@@ -60,7 +60,7 @@ export default function Navigation() {
                         </ul>
                     </li>
                     <li tabIndex={0}>
-                        <a>
+                        <a className="font-bold text-[#B0B0E4]">
                             Tentang
                             <svg
                                 className="fill-current"
@@ -104,10 +104,10 @@ export default function Navigation() {
                         </ul>
                     </li>
                     <li tabIndex={0}>
-                        <a>Galeri</a>
+                        <a className="font-bold text-[#B0B0E4]">Galeri</a>
                     </li>
                     <li>
-                        <a>Kontak</a>
+                        <a className="font-bold text-[#B0B0E4]">Kontak</a>
                     </li>
                 </ul>
             </div>

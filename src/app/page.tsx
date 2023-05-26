@@ -1,5 +1,6 @@
 import Hero from '@/components/hero';
 import Informasiterbaru from '@/components/informasiterbaru';
+import Whatwedo from '@/components/whatwedo';
 
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
                 <Hero></Hero>
             </div>
             <Informasiterbaru></Informasiterbaru>
+            <Whatwedo></Whatwedo>
         </main>
     );
 };
