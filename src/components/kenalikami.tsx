@@ -58,13 +58,14 @@ export default function Kenalikami() {
             <div className="card m-auto justify-center w-100 py-20 flex-row gap-2 px-10">
 
                 {anggota == 'Pengurus Harian' && 
-                    <div className="card card-compact w-96 bg-base-100 shadow-xl">
+                    <div className="card card-compact w-96 bg-base-100 shadow-xl text-center">
                         <div className="card-body">
-                        <figure><img src="img/informasi-terbaru-test.jpg" alt="Shoes" /></figure>
-                            <h2 className="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <figure><img src="img/informasi-terbaru-test.jpg" alt="ketua" /></figure>
+                            <h2 className="card-title text-center">Ignatius Axel</h2>
+                            <p>Ketua</p>
                             <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Buy Now</button>
+                            <button className="btn btn-primary">IG</button>
+                            <button className="btn btn-primary">Linkid</button>
                             </div>
                         </div>
                     </div>
