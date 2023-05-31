@@ -65,7 +65,7 @@ export default function Kenalikami() {
                             <p>Ketua</p>
                             <div className="card-actions justify-end">
                             <button className="btn btn-primary">IG</button>
-                            <button className="btn btn-primary">Linkid</button>
+                            <button className="btn btn-primary">I LOVE HIMA</button>
                             </div>
                         </div>
                     </div>
