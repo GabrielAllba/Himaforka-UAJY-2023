@@ -33,7 +33,7 @@ export default function Whatwedo() {
                         <a className="tab tab-active hover:bg-accent">IFest#11</a>
                     ) : (
                         <a className="tab" onClick={() => setKegiatan('IFest#11')}>
-                           IFest#11
+                            IFest#11
                         </a>
                     )}
 
@@ -44,52 +44,144 @@ export default function Whatwedo() {
                             Evaluasi
                         </a>
                     )}
-                </div> 
+                </div>
             </div>
             <div className="card m-auto justify-center w-100 py-20 flex-row gap-2 px-10">
-                {kegiatan == 'Sharing Alumni 1' && 
-                <div className="card lg:card-side bg-base-100 shadow-xl">
-                        <figure><img src="img/informasi-terbaru-test.jpg" alt="image" className="rounded-xl" /></figure>
-                        <div className="card-body">
-                            <h2 className="card-title font-bold text-[#FF8A00]">Sharing Alumni 1</h2>
-                            <p className="text-left text-[#BEBEE7]">Rabu, 8 Desember 2023</p>
-                            <p className='text-justify'>
-                                Halo semua!
-                                Berikut merupakan video after movie dari Sharing Alumni HIMAFORKA UAJY dengan tema "Turning Ideas Into Design".
-                                Bersama alumni Informatika UAJY I Putu Eka Juliantara, S.T. yang dilakukan di ruang seminar.
-                                Pada sharing ini, peserta diperkenalkan mengenai wawasan dan pengetahuan akan dunia kerja Sarjana Informatika khususnya dibidang UI/UX.
-                            </p>
-                            <div className="card-actions justify-end">
-                                <button className="btn btn-primary">MORE</button>
+                {kegiatan == 'Sharing Alumni 1' && (
+                    <a href="" className="card lg:card-side bg-base-100 shadow-xl">
+                        <div className="card-body gap-4">
+                            <div>
+                                <h2 className="card-title font-bold text-[#FF8A00]">Sharing Alumni 1</h2>
+                                <p className="text-left text-[#BEBEE7]">Rabu, 8 Desember 2023</p>
+                            </div>
+                            <div className="h-1 bg-[#ff8a00] w-100"></div>
+                            <div className="flex justify-center gap-8 items-center  flex-wrap-reverse lg:flex-nowrap">
+                                <div className="w-3/4 flex-col">
+                                    <div className="badge bg-[#FFE1BF] py-3 text-[#FF8A00] ">Akademik</div>
+                                    <p className="pt-4">
+                                        Halo semua! Berikut merupakan video after movie dari Sharing Alumni HIMAFORKA
+                                        UAJY dengan tema "Turning Ideas Into Design". <br></br>
+                                        <br></br>Bersama alumni Informatika UAJY I Putu Eka Juliantara, S.T. yang
+                                        dilakukan di ruang seminar. Pada sharing ini, peserta diperkenalkan mengenai
+                                        wawasan dan pengetahuan akan dunia kerja Sarjana Informatika khususnya dibidang
+                                        UI/UX.<br></br>
+                                        <br></br>
+                                        Halo semua! Berikut merupakan video after movie dari Sharing Alumni HIMAFORKA
+                                        UAJY dengan tema "Turning Ideas Into Design". <br></br>
+                                    </p>
+                                </div>
+
+                                <div className="w-100 lg:w-1/4">
+                                    <figure>
+                                        <img src="img/informasi-terbaru-test.jpg" alt="image" className="w-1/2" />
+                                    </figure>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    }
+                    </a>
+                )}
+                {kegiatan == 'Sharing Alumni 2' && (
+                    <a href="" className="card lg:card-side bg-base-100 shadow-xl">
+                        <div className="card-body gap-4">
+                            <div>
+                                <h2 className="card-title font-bold text-[#FF8A00]">Sharing Alumni 2</h2>
+                                <p className="text-left text-[#BEBEE7]">Rabu, 8 Desember 2023</p>
+                            </div>
+                            <div className="h-1 bg-[#ff8a00] w-100"></div>
+                            <div className="flex justify-center gap-8 items-center  flex-wrap-reverse lg:flex-nowrap">
+                                <div className="w-3/4 flex-col">
+                                    <div className="badge bg-[#FFE1BF] py-3 text-[#FF8A00] ">Akademik</div>
+                                    <p className="pt-4">
+                                        Halo semua! Berikut merupakan video after movie dari Sharing Alumni HIMAFORKA
+                                        UAJY dengan tema "Turning Ideas Into Design". <br></br>
+                                        <br></br>Bersama alumni Informatika UAJY I Putu Eka Juliantara, S.T. yang
+                                        dilakukan di ruang seminar. Pada sharing ini, peserta diperkenalkan mengenai
+                                        wawasan dan pengetahuan akan dunia kerja Sarjana Informatika khususnya dibidang
+                                        UI/UX.<br></br>
+                                        <br></br>
+                                        Halo semua! Berikut merupakan video after movie dari Sharing Alumni HIMAFORKA
+                                        UAJY dengan tema "Turning Ideas Into Design". <br></br>
+                                    </p>
+                                </div>
 
-                    {kegiatan == 'Sharing Alumni 2' && 
-                    <div className="card lg:card-side bg-base-100 shadow-xl">
-                        <div className="card-body">
-                            <h2 className="card-title font-bold text-[#FF8A00]">Sharing Alumni 2</h2>
-                            <p className="text-left text-[#BEBEE7]">Rabu, 8 Desember 2023</p>   
-                            <p className='text-justify'>
-                                Halo semua!
-                                Berikut merupakan video after movie dari Sharing Alumni HIMAFORKA UAJY dengan tema "Turning Ideas Into Design".
-                                Bersama alumni Informatika UAJY I Putu Eka Juliantara, S.T. yang dilakukan di ruang seminar.
-                                Pada sharing ini, peserta diperkenalkan mengenai wawasan dan pengetahuan akan dunia kerja Sarjana Informatika khususnya dibidang UI/UX.
-                            </p>
-                            <figure><img src="img/informasi-terbaru-test.jpg" alt="image" className="rounded-xl w-80 flex-none" /></figure>
-                            <div className="card-actions justify-end">
-                                <button className="btn btn-primary">MORE</button>
+                                <div className="w-100 lg:w-1/4">
+                                    <figure>
+                                        <img src="img/informasi-terbaru-test.jpg" alt="image" className="w-1/2" />
+                                    </figure>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    }
+                    </a>
+                )}
 
-                {kegiatan == 'IFest#11' && <p>IFest#11</p>}
+                {kegiatan == 'IFest#11' && (
+                    <a href="" className="card lg:card-side bg-base-100 shadow-xl">
+                        <div className="card-body gap-4">
+                            <div>
+                                <h2 className="card-title font-bold text-[#FF8A00]">IFest #11</h2>
+                                <p className="text-left text-[#BEBEE7]">Rabu, 8 Desember 2023</p>
+                            </div>
+                            <div className="h-1 bg-[#ff8a00] w-100"></div>
+                            <div className="flex justify-center gap-8 items-center  flex-wrap-reverse lg:flex-nowrap">
+                                <div className="w-3/4 flex-col">
+                                    <div className="badge bg-[#FFE1BF] py-3 text-[#FF8A00] ">Akademik</div>
+                                    <p className="pt-4">
+                                        Halo semua! Berikut merupakan video after movie dari Sharing Alumni HIMAFORKA
+                                        UAJY dengan tema "Turning Ideas Into Design". <br></br>
+                                        <br></br>Bersama alumni Informatika UAJY I Putu Eka Juliantara, S.T. yang
+                                        dilakukan di ruang seminar. Pada sharing ini, peserta diperkenalkan mengenai
+                                        wawasan dan pengetahuan akan dunia kerja Sarjana Informatika khususnya dibidang
+                                        UI/UX.<br></br>
+                                        <br></br>
+                                        Halo semua! Berikut merupakan video after movie dari Sharing Alumni HIMAFORKA
+                                        UAJY dengan tema "Turning Ideas Into Design". <br></br>
+                                    </p>
+                                </div>
 
-                {kegiatan == 'Evaluasi' && <p>Evaluasi</p>}
+                                <div className="w-100 lg:w-1/4">
+                                    <figure>
+                                        <img src="img/informasi-terbaru-test.jpg" alt="image" className="w-1/2" />
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                )}
+
+                {kegiatan == 'Evaluasi' && (
+                    <a href="" className="card lg:card-side bg-base-100 shadow-xl">
+                        <div className="card-body gap-4">
+                            <div>
+                                <h2 className="card-title font-bold text-[#FF8A00]">Evaluasi</h2>
+                                <p className="text-left text-[#BEBEE7]">Rabu, 8 Desember 2023</p>
+                            </div>
+                            <div className="h-1 bg-[#ff8a00] w-100"></div>
+                            <div className="flex justify-center gap-8 items-center  flex-wrap-reverse lg:flex-nowrap">
+                                <div className="w-3/4 flex-col">
+                                    <div className="badge bg-[#FFE1BF] py-3 text-[#FF8A00] ">Akademik</div>
+                                    <p className="pt-4">
+                                        Halo semua! Berikut merupakan video after movie dari Sharing Alumni HIMAFORKA
+                                        UAJY dengan tema "Turning Ideas Into Design". <br></br>
+                                        <br></br>Bersama alumni Informatika UAJY I Putu Eka Juliantara, S.T. yang
+                                        dilakukan di ruang seminar. Pada sharing ini, peserta diperkenalkan mengenai
+                                        wawasan dan pengetahuan akan dunia kerja Sarjana Informatika khususnya dibidang
+                                        UI/UX.<br></br>
+                                        <br></br>
+                                        Halo semua! Berikut merupakan video after movie dari Sharing Alumni HIMAFORKA
+                                        UAJY dengan tema "Turning Ideas Into Design". <br></br>
+                                    </p>
+                                </div>
+
+                                <div className="w-100 lg:w-1/4">
+                                    <figure>
+                                        <img src="img/informasi-terbaru-test.jpg" alt="image" className="w-1/2" />
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                )}
             </div>
-            
         </div>
     );
 }
