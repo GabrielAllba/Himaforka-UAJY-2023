@@ -10,7 +10,7 @@ export default function Informasiterbaru() {
       <div className="w-100 card m-auto flex-row justify-center gap-2 px-8 py-4">
         <div className="w-100 card m-auto w-96 flex-row flex-wrap items-center justify-center gap-4 bg-base-100 shadow-xl">
           <figure className="aspect-square">
-            <img src="img/informasi-terbaru-test.jpg" alt="image" className="rounded-xl" />
+            <img alt="image" className="rounded-xl" src="img/informasi-terbaru-test.jpg" />
           </figure>
           <div className="card-body ">
             <p className="text-left text-[#BEBEE7]">Rabu, 8 Desember 2023</p>
@@ -32,7 +32,7 @@ export default function Informasiterbaru() {
         </div>
         <div className="w-100 card m-auto w-96 flex-row flex-wrap items-center justify-center gap-4 bg-base-100 shadow-xl">
           <figure className="aspect-square">
-            <img src="img/informasi-terbaru-test.jpg" alt="image" className="rounded-xl" />
+            <img alt="image" className="rounded-xl" src="img/informasi-terbaru-test.jpg" />
           </figure>
           <div className="card-body ">
             <p className="text-left text-[#BEBEE7]">Rabu, 8 Desember 2023</p>
@@ -54,7 +54,7 @@ export default function Informasiterbaru() {
         </div>
         <div className="w-100 card m-auto w-96 flex-row flex-wrap items-center justify-center gap-4 bg-base-100 shadow-xl">
           <figure className="aspect-square">
-            <img src="img/informasi-terbaru-test.jpg" alt="image" className="rounded-xl" />
+            <img alt="image" className="rounded-xl" src="img/informasi-terbaru-test.jpg" />
           </figure>
           <div className="card-body ">
             <p className="text-left text-[#BEBEE7]">Rabu, 8 Desember 2023</p>

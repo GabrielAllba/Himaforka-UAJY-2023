@@ -48,7 +48,7 @@ export default function Whatwedo() {
       </div>
       <div className="w-100 card m-auto flex-row justify-center gap-2 px-10 py-20">
         {kegiatan == "Sharing Alumni 1" && (
-          <a href="" className="card bg-base-100 shadow-xl lg:card-side">
+          <a className="card bg-base-100 shadow-xl lg:card-side" href="">
             <div className="card-body gap-4">
               <div>
                 <h2 className="card-title font-bold text-[#FF8A00]">Sharing Alumni 1</h2>
@@ -61,7 +61,7 @@ export default function Whatwedo() {
                   <p className="pt-4">
                     Halo semua! Berikut merupakan video after movie dari Sharing Alumni HIMAFORKA
                     UAJY dengan tema "Turning Ideas Into Design". <br></br>
-                    <br></br>Bersama alumni Informatika UAJY I Putu Eka Juliantara, S.T. yang
+                    <br></br>Bersama alumni Informatika UAJY I Putu Eka Juliantara, S.T. yang
                     dilakukan di ruang seminar. Pada sharing ini, peserta diperkenalkan mengenai
                     wawasan dan pengetahuan akan dunia kerja Sarjana Informatika khususnya dibidang
                     UI/UX.<br></br>
@@ -73,7 +73,7 @@ export default function Whatwedo() {
 
                 <div className="w-100 lg:w-1/4">
                   <figure>
-                    <img src="img/informasi-terbaru-test.jpg" alt="image" className="w-1/2" />
+                    <img alt="image" className="w-1/2" src="img/informasi-terbaru-test.jpg" />
                   </figure>
                 </div>
               </div>
@@ -81,7 +81,7 @@ export default function Whatwedo() {
           </a>
         )}
         {kegiatan == "Sharing Alumni 2" && (
-          <a href="" className="card bg-base-100 shadow-xl lg:card-side">
+          <a className="card bg-base-100 shadow-xl lg:card-side" href="">
             <div className="card-body gap-4">
               <div>
                 <h2 className="card-title font-bold text-[#FF8A00]">Sharing Alumni 2</h2>
@@ -94,7 +94,7 @@ export default function Whatwedo() {
                   <p className="pt-4">
                     Halo semua! Berikut merupakan video after movie dari Sharing Alumni HIMAFORKA
                     UAJY dengan tema "Turning Ideas Into Design". <br></br>
-                    <br></br>Bersama alumni Informatika UAJY I Putu Eka Juliantara, S.T. yang
+                    <br></br>Bersama alumni Informatika UAJY I Putu Eka Juliantara, S.T. yang
                     dilakukan di ruang seminar. Pada sharing ini, peserta diperkenalkan mengenai
                     wawasan dan pengetahuan akan dunia kerja Sarjana Informatika khususnya dibidang
                     UI/UX.<br></br>
@@ -106,7 +106,7 @@ export default function Whatwedo() {
 
                 <div className="w-100 lg:w-1/4">
                   <figure>
-                    <img src="img/informasi-terbaru-test.jpg" alt="image" className="w-1/2" />
+                    <img alt="image" className="w-1/2" src="img/informasi-terbaru-test.jpg" />
                   </figure>
                 </div>
               </div>
@@ -115,7 +115,7 @@ export default function Whatwedo() {
         )}
 
         {kegiatan == "IFest#11" && (
-          <a href="" className="card bg-base-100 shadow-xl lg:card-side">
+          <a className="card bg-base-100 shadow-xl lg:card-side" href="">
             <div className="card-body gap-4">
               <div>
                 <h2 className="card-title font-bold text-[#FF8A00]">IFest #11</h2>
@@ -128,7 +128,7 @@ export default function Whatwedo() {
                   <p className="pt-4">
                     Halo semua! Berikut merupakan video after movie dari Sharing Alumni HIMAFORKA
                     UAJY dengan tema "Turning Ideas Into Design". <br></br>
-                    <br></br>Bersama alumni Informatika UAJY I Putu Eka Juliantara, S.T. yang
+                    <br></br>Bersama alumni Informatika UAJY I Putu Eka Juliantara, S.T. yang
                     dilakukan di ruang seminar. Pada sharing ini, peserta diperkenalkan mengenai
                     wawasan dan pengetahuan akan dunia kerja Sarjana Informatika khususnya dibidang
                     UI/UX.<br></br>
@@ -140,7 +140,7 @@ export default function Whatwedo() {
 
                 <div className="w-100 lg:w-1/4">
                   <figure>
-                    <img src="img/informasi-terbaru-test.jpg" alt="image" className="w-1/2" />
+                    <img alt="image" className="w-1/2" src="img/informasi-terbaru-test.jpg" />
                   </figure>
                 </div>
               </div>
@@ -149,7 +149,7 @@ export default function Whatwedo() {
         )}
 
         {kegiatan == "Evaluasi" && (
-          <a href="" className="card bg-base-100 shadow-xl lg:card-side">
+          <a className="card bg-base-100 shadow-xl lg:card-side" href="">
             <div className="card-body gap-4">
               <div>
                 <h2 className="card-title font-bold text-[#FF8A00]">Evaluasi</h2>
@@ -162,7 +162,7 @@ export default function Whatwedo() {
                   <p className="pt-4">
                     Halo semua! Berikut merupakan video after movie dari Sharing Alumni HIMAFORKA
                     UAJY dengan tema "Turning Ideas Into Design". <br></br>
-                    <br></br>Bersama alumni Informatika UAJY I Putu Eka Juliantara, S.T. yang
+                    <br></br>Bersama alumni Informatika UAJY I Putu Eka Juliantara, S.T. yang
                     dilakukan di ruang seminar. Pada sharing ini, peserta diperkenalkan mengenai
                     wawasan dan pengetahuan akan dunia kerja Sarjana Informatika khususnya dibidang
                     UI/UX.<br></br>
@@ -174,7 +174,7 @@ export default function Whatwedo() {
 
                 <div className="w-100 lg:w-1/4">
                   <figure>
-                    <img src="img/informasi-terbaru-test.jpg" alt="image" className="w-1/2" />
+                    <img alt="image" className="w-1/2" src="img/informasi-terbaru-test.jpg" />
                   </figure>
                 </div>
               </div>

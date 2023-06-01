@@ -13,23 +13,23 @@ export default function Hero() {
           <div className="w-100 card m-auto flex-row flex-wrap items-center justify-center gap-4 py-4">
             <div className="card m-auto aspect-square h-48  flex-row">
               <div className="card m-auto justify-center bg-base-100 p-4 shadow-xl">
-                <img className="aspect-square" src="img/LOGO_UAJY.png" alt="Shoes" />
+                <img alt="Shoes" className="aspect-square" src="img/LOGO_UAJY.png" />
               </div>
             </div>
             <div className="w-100 card m-auto flex-row justify-center gap-2 bg-base-100 px-8 py-4 shadow-xl">
               <div className="card m-auto aspect-square w-1/3 justify-center bg-base-100 p-4 shadow-xl">
-                <img src="img/kelompok-studi/logo-ksdg-2022-2023.png" alt="Shoes" />
+                <img alt="Shoes" src="img/kelompok-studi/logo-ksdg-2022-2023.png" />
               </div>
               <div className="card m-auto aspect-square w-1/3 justify-center bg-base-100 p-4 shadow-xl">
-                <img src="img/kelompok-studi/logo-ksp-2022-2023.png" alt="Shoes" />
+                <img alt="Shoes" src="img/kelompok-studi/logo-ksp-2022-2023.png" />
               </div>
               <div className="card m-auto aspect-square w-1/3 justify-center bg-base-100 p-4 shadow-xl">
-                <img src="img/kelompok-studi/logo-ksl-2022-2023.png" alt="Shoes" />
+                <img alt="Shoes" src="img/kelompok-studi/logo-ksl-2022-2023.png" />
               </div>
             </div>
             <div className="card m-auto aspect-square h-48  flex-row">
               <div className="card m-auto justify-center bg-base-100 p-4 shadow-xl">
-                <img className="aspect-square" src="img/LOGO_HIMAFORKA.png" alt="Shoes" />
+                <img alt="Shoes" className="aspect-square" src="img/LOGO_HIMAFORKA.png" />
               </div>
             </div>
           </div>

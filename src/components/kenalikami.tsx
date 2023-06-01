@@ -62,7 +62,7 @@ export default function Kenalikami() {
           <div className="card card-compact w-96 bg-base-100 text-center shadow-xl">
             <div className="card-body">
               <figure>
-                <img src="img/informasi-terbaru-test.jpg" alt="ketua" />
+                <img alt="ketua" src="img/informasi-terbaru-test.jpg" />
               </figure>
               <h2 className="card-title text-center">Ignatius Axel</h2>
               <p>Ketua</p>
