@@ -1,3 +1,4 @@
+import BelajarBersama from "@/components/belajarbersama";
 import Hero from "@/components/hero";
 import Informasiterbaru from "@/components/informasiterbaru";
 import Kenalikami from "@/components/kenalikami";
@@ -12,6 +13,7 @@ const Home = () => {
       <Informasiterbaru></Informasiterbaru>
       <Whatwedo></Whatwedo>
       <Kenalikami></Kenalikami>
+      <BelajarBersama></BelajarBersama>
     </main>
   );
 };
